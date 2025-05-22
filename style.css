@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 36px;
+}
+.navbar {
+  height: 60px;
+  background: #f9faff;
+}
+.navbar .logo {
+  font-family: comfortaa;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navbar .nav {
+  display: flex;
+}
+.navbar a {
+  font-family: playfair;
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.navbar a:hover {
+  color: #3e9b9c;
+}
+.header {
+  height: 100vh;
+  justify-content: center;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header .info-image {
+  flex: 1;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.info-title {
+  font-size: 20px;
+  font-family: nunito, sans serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #317873;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info-name {
+  color: #25282b;
+  font-family: playfair display, sans serif;
+  font-size: 64px;
+  font-weight: bold;
+}
+.info-story {
+  font-family: nunito, sans serif;
+  font-size: 24px;
+  color: #828282;
+}
+.info-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.info-buttons .teal {
+  padding: 12px 24px;
+  font-family: roboto, sans serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: #2d6a6a;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.info-buttons .normal {
+  padding: 12px 24px;
+  font-family: roboto, sans serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: solid 2px #2d6a6a;
+  border-radius: 8px;
+  color: #2d6a6a;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.info-buttons .teal:hover {
+  background-color: #3e9b9c;
+}
+
+.projects {
+}
+.projects .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.project-title {
+  color: #25282b;
+  font-family: playfair display, sans serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 72px;
+  letter-spacing: 0px;
+}
+.project-title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #3e9b9c;
+  margin: 8px auto auto;
+  border-radius: 4px;
+}
+.project-list {
+  display: flex;
+  justify-content: space-between;
+  height: 526px;
+  width: 992px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 32px 0px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+}
+.project-info {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+}
+.project-info h1 {
+  color: #25282b;
+  font-family: playfair display, sans serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 72px;
+  letter-spacing: 0px;
+}
+
+.project-info p {
+  font-family: nunito, sans serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #828282;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+.project-info .normal {
+  width: 180px;
+  padding: 12px 24px;
+  font-family: roboto, sans serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: solid 1px #2d6a6a;
+  border-radius: 8px;
+  color: #2d6a6a;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.project-image {
+  border-radius: 0px 10px 10px 0;
+}
+.reverse {
+  flex-direction: row-reverse;
+}
+.imgreverse {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.about {
+  height: 100vh;
+
+}
+.about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.about-title {
+  font-family: playfair display, sans serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #25282b;
+}
