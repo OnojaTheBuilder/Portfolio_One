@@ -349,3 +349,33 @@ ul {
 .contact-button-wrap button:hover {
   background-color: #009688;
 }
+
+.footer {
+
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons {
+      justify-content: center;
+    display: flex;
+}
+.footer-content a {
+  color: #2d6a6a;
+  text-decoration: none;
+}
+.footer-content i {
+  font-size: 34px;
+  margin-right: 10px;
+}
+
+.footer-content h3 {
+  font-family: comfortaa, sans serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #25282b;
+
+}
