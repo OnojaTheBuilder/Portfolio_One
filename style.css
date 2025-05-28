@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #fff;
 }
@@ -19,7 +21,7 @@ ul {
   height: 100px;
   padding: 20px 0;
   background: #f9faff;
-  position: fixed;
+  position: fixed;    font-weight: 500;
   top: 0;
   left: 0;
   right: 0; */
@@ -59,8 +61,10 @@ ul {
 .main-menu a:hover {
   color: #3e9b9c;
 }
-.header {
-  margin-top: 50px;
+.header {html {
+  scroll-behavior: smooth;
+}
+  margin-top: 150px;
   margin-bottom: 50px;
   width: 100%;
   padding: 0;
@@ -409,9 +413,6 @@ ul {
   color: #25282b;
 
 }
-.menu-toggle {
-
-}
 
 /* Hamburger Button */
 .hamburger-button {
@@ -428,6 +429,15 @@ ul {
   height: 3px;
   background: #000;
   margin: 6px 0;
+}
+.hamburger-button.active .top {
+  transform: rotate(45deg) translateY(8px);
+}
+.hamburger-button.active .middle {
+  opacity: 0;
+}
+.hamburger-button.active .bottom {
+  transform: rotate(-45deg) translateY(-8px);
 }
 /* Mobile Menu */
 .mobile-menu {
@@ -448,15 +458,18 @@ ul {
   margin-top: 100px;
   padding-right: 10px;
 }
-.mobile-menu ul li {
-  margin: 10px 20px;project-list
+.mobile-menu ul li a {
+  margin: 10px 20px;
   text-decoration: none;
   color: #000000;
   font-size: 22px;
   margin-right: 10px;
   cursor: pointer;
   transition: 0.3s;
+  font-weight: 500;
+  padding: 10px;
 }
+
 /* Media Queries */
 
 @media (max-width: 960px) {
@@ -503,6 +516,7 @@ ul {
 }
 
 @media (max-width: 670px) {
+  
   .left-content {
 
   padding: 30px 30px 60px 30px;

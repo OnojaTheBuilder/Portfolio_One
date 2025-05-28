@@ -11,5 +11,6 @@ const menuToggle = document.querySelector(".hamburger-button");
 const nav = document.querySelector(".mobile-menu")
 
 menuToggle.addEventListener("click", () => {
+    menuToggle.classList.toggle("active");
     nav.classList.toggle("active");
 })
