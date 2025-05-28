@@ -20,11 +20,25 @@
     <nav class="navbar">
       <div class="container">
         <div class="logo">OnojaTheBuilder</div>
-        <ul class="nav">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
+        <div class="main-menu">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <button id="hamburger-button" class="hamburger-button">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+        <div class="mobile-menu">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
     <header class="header">
@@ -45,11 +59,12 @@
             <button class="normal">Linkedin</button>
           </div>
         </div>
-        <img
-          class="info-image"
+        <div class="image-wrapper">
+          <img
           src="/assets/heropic-removebg-preview.png"
           alt="OnojaTheBuilder Image"
         />
+        </div>
       </div>
     </header>
     <section class="projects">
@@ -64,11 +79,12 @@
             </p>
             <button class="normal">View Project</button>
           </div>
-          <img
-            class="project-image"
-            src="/assets/pexels-elly-fairytale-3823207 1.png"
-            alt="project-1"
-          />
+          <div class="image-wrapper">
+            <img
+              src="/assets/pexels-elly-fairytale-3823207 1.png"
+              alt="project-1"
+            />
+          </div>
         </div>
         <div class="project-list reverse">
           <div class="project-info">
@@ -79,11 +95,9 @@
             </p>
             <button class="normal">View Project</button>
           </div>
-          <img
-            class="project-image imgreverse"
-            src="/assets/Rectangle 7.png"
-            alt="project-2"
-          />
+          <div class="image-wrapper imgreverse">
+            <img src="/assets/Rectangle 7.png" alt="project-2" />
+          </div>
         </div>
         <div class="project-list">
           <div class="project-info">
@@ -94,15 +108,13 @@
             </p>
             <button class="normal">View Project</button>
           </div>
-          <img
-            class="project-image"
-            src="/assets/Rectangle 7 (1).png"
-            alt="project-3"
-          />
+          <div class="image-wrapper">
+            <img src="/assets/Rectangle 7 (1).png" alt="project-3" />
+          </div>
         </div>
       </div>
     </section>
-    <section class="about">
+     <section class="about">
       <div class="container">
         <div class="info">
           <h1 class="about-title">About Me</h1>
@@ -125,7 +137,7 @@
         />
       </div>
     </section>
-    <section class="flex-wrap-content">
+   <section class="flex-wrap-content">
       <div class="container">
         <div class="formwrap">
           <form action="#" class="form">
@@ -173,7 +185,7 @@
           <h3>Israel Onoja</h3>
         </div>
       </div>
-    </footer>
+    </footer> 
     <div class="footer-wave">
       <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -183,5 +195,20 @@
         ></path>
       </svg>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
+
+<!--
+<nav class="navbar">
+      <div class="container">
+        <div class="logo">OnojaTheBuilder</div>
+        <div class="menu-toggle" aria-label="Open Menu"><i class="fa-solid fa-bars-staggered"></i></div>
+        <ul class="nav">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+-->
