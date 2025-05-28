@@ -268,7 +268,7 @@ section {
 .flex-wrap-content .container {
   display: flex;
   flex-direction: column;
-  
+  min-width: 300px;
 }
 
 .flex-wrap-content .formwrap {
