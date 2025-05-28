@@ -521,9 +521,7 @@ section {
 .message textarea {
     height: 220px; /* taller on small screens */
   }
-.flex-wrap-content .formwrap {
-  min-width: 300px;
-}
+
 }
 
 @media (max-width: 670px) {
