@@ -525,9 +525,10 @@ section {
 }
 
 @media (max-width: 670px) {
-  
+  .container {
+    padding: 2rem;
+  }
   .left-content {
-
   padding: 30px 30px 60px 30px;
 }
 
@@ -552,8 +553,67 @@ section {
 .info-name {
   font-size: 50px;
 }
+.info-title,
+.project-info h1 {
+  font-size: 22px
+}
+ .info-name,
+ .project-title,
+ .about-title,
+ .contact-heading h2
+  {
+    font-size: 34px;
+  } 
+    .info-story,
+    .project-info p {
+    font-size: 18px;
+  }
+  .info-buttons .teal{
+    padding: 10px 20px;    
+    font-size: 15px;       
+    width: auto;           
+  }
+  
+.info-buttons .normal, 
+.project-info .normal {
+  padding: 10px 20px;    
+    font-size: 15px;       
+    width: auto; 
+}
 
 }
 @media (max-width: 500px) {
-
+  .container {
+    padding: 1.5rem;;
+  }
+  .info-title,
+  .project-info h1 {
+    font-size: 18px;
+  }
+  .info-name,
+  .project-title,
+  .about-title,
+  .contact-heading h2
+ {
+    font-size: 32px
+  } 
+  .info-story,
+  .project-info p {
+    font-size: 16px;
+  }
+  .info-buttons .teal {
+    padding: .875rem 0rem;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .info-buttons .normal,
+  .project-info .normal {
+     padding: .875rem 0rem;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
 }
